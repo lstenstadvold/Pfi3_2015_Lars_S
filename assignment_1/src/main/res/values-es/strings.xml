@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Assignment_1</string>
+    <string name="button_text">siguiente!</string>
+    <string name="quote_1">\"Si la depuración es el proceso de eliminar los errores de software, entonces la programación debe ser el proceso de poner en." - Edsger Dijkstra</string>
+    <string name="quote_2">"Uno de mis días más productivos fue tirar 1.000 líneas de código." - Ken Thompson</string>
+    <string name="quote_3">"Antes de software puede ser reutilizable que primero tiene que ser utilizable." - Ralph Johnson</string>
+    <string name="quote_header">Una cosa al azar un nerd de la computadora una vez dijo:</string>
+</resources>

@@ -1,6 +1,10 @@
 <resources>
     <string name="app_name">Assignment_1</string>
-
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+    <string name="quote_header">A random thing a computer nerd once said:</string>
+    <string name="quote_1">\"If debugging is the process of removing software bugs, then programming must be the process of putting them in.\"\n- Edsger Dijkstra</string>
+    <string name="quote_2">“One of my most productive days was throwing away 1000 lines of code.” - Ken Thompson</string>
+    <string name="quote_3">“Before software can be reusable it first has to be usable.” - Ralph Johnson</string>
+    <string name="button_text">ok wow, next plz</string>
 </resources>
