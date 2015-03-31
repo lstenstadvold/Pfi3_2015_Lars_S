@@ -10,7 +10,7 @@
         <item>@string/quote_3</item>
         <item>@string/quote_4</item>
     </string-array>
-    <string name="quote_1">\"If debugging is the process of removing software bugs, then programming must be the process of putting them in.\"\n- Edsger Dijkstra</string>
+    <string name="quote_1">\"If debugging is the process of removing software bugs, then programming must be the process of putting them in.\"- Edsger Dijkstra</string>
     <string name="quote_2">“One of my most productive days was throwing away 1000 lines of code.” - Ken Thompson</string>
     <string name="quote_3">“Before software can be reusable it first has to be usable.” - Ralph Johnson</string>
     <string name="quote_4">“Computing is not about computers any more. It is about living.” - Nicholas Negroponte</string>
