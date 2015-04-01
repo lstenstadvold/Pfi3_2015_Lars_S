@@ -36,14 +36,14 @@
         android:text="@string/button_text"
         android:onClick="nextQuote"
         android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true" />
+        android:layout_alignParentEnd="true" />
 
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/imageView"
-        android:layout_above="@+id/button"
-        android:layout_centerHorizontal="true"
-        android:src="@drawable/putersmall" />
+        android:src="@drawable/putersmall"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
 
 </RelativeLayout>
