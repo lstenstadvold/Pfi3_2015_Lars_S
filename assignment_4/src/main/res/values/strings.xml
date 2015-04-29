@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Assignment_4</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!--names of planets -->
+    <string name= "earth_name">Earth</string>
+    <string name= "jupiter_name">Jupiter</string>
+    <string name= "mars_name">Mars</string>
+    <string name= "mercury_name">Mercury</string>
+    <string name= "neptune_name">Neptune</string>
+    <string name= "saturn_name">Saturn</string>
+    <string name= "uranus_name">Uranus</string>
+    <string name= "venus_name">Venus</string>
+
+    <!--planet descriptions -->
+    <string name="earth_description">Earth description</string>
+    <string name="mercury_description"></string>
+    <string name="venus_description"></string>
+    <string name="mars_description"></string>
+    <string name="jupiter_description"></string>
+    <string name="saturn_description"></string>
+    <string name="uranus_description"></string>
+    <string name="neptune_description"></string>
+</resources>
