@@ -1,5 +1,7 @@
 package larsstenstadvold.assignment_4;
 
+import android.app.FragmentManager;
+import android.app.FragmentTransaction;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
@@ -12,11 +14,9 @@ public class MainActivity extends ActionBarActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
-        android.app.FragmentManager fm = getFragmentManager();
-        android.app.FragmentTransaction ft = fm.beginTransaction();
-        GridFragment gf = new GridFragment();
-        ft.replace(R.id.container,gf);
+        FragmentManager fm = getFragmentManager();
+        FragmentTransaction ft = fm.beginTransaction();
+        ft.replace(R.id.container,new GridFragment());
         ft.commit();
     }
 
@@ -38,6 +38,13 @@ public class MainActivity extends ActionBarActivity {
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_settings) {
             return true;
+        }
+        if (id == R.id.action_spinner) {
+            FragmentManager fm = getFragmentManager();
+            InfoFragment infoF = new InfoFragment();
+            infoF.show(fm, "Info");
+
+            return false;
         }
 
         return super.onOptionsItemSelected(item);

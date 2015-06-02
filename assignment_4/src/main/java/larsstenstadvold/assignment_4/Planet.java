@@ -11,11 +11,13 @@ public class Planet implements Serializable {
     String name;
     Drawable image;
     String description;
+    String fact;
 
-    public Planet(String name, Drawable image, String description) {
+    public Planet(String name, Drawable image, String description, String fact) {
         this.name = name;
         this.image = image;
         this.description = description;
+        this.fact = fact;
     }
 
     public Drawable getImage() {
@@ -33,6 +35,9 @@ public class Planet implements Serializable {
     }
     public String getSummary() {
         return description;
+    }
+    public String getFact() {
+        return fact;
     }
 
 }
