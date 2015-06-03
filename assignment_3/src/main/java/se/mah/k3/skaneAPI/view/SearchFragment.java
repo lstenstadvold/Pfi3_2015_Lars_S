@@ -50,7 +50,7 @@ public class SearchFragment extends Fragment implements AdapterView.OnItemSelect
         ev.setAdapter(myExListAdapter);
         spinnerFrom.setSelection(1);
 
-        //Why can't I
+
         spinnerFrom.setOnItemSelectedListener(this);
         spinnerTo.setOnItemSelectedListener(this);
 
